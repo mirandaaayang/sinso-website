@@ -56,8 +56,6 @@ const HEADER_HTML = `
         <a href="Solutions.html" class="nav-link" data-lang="zh">解决方案</a>
         <a href="rgb-printing.html" class="nav-link" data-lang="en">RGB Printing</a>
         <a href="rgb-printing.html" class="nav-link" data-lang="zh">RGB印刷</a>
-        <a href="Why-Sinsoprinting.html" class="nav-link" data-lang="en">Why Sinso</a>
-        <a href="Why-Sinsoprinting.html" class="nav-link" data-lang="zh">为什么选我们</a>
         <a href="Company-Overview.html" class="nav-link" data-lang="en">About</a>
         <a href="Company-Overview.html" class="nav-link" data-lang="zh">关于我们</a>
         <a href="news.html" class="nav-link" data-lang="en">News</a>
@@ -96,8 +94,6 @@ const HEADER_HTML = `
       <a href="Solutions.html" class="nav-link" data-lang="zh">解决方案</a>
       <a href="rgb-printing.html" class="nav-link" data-lang="en">RGB Printing</a>
       <a href="rgb-printing.html" class="nav-link" data-lang="zh">RGB印刷</a>
-      <a href="Why-Sinsoprinting.html" class="nav-link" data-lang="en">Why Sinso</a>
-      <a href="Why-Sinsoprinting.html" class="nav-link" data-lang="zh">为什么选我们</a>
       <a href="Company-Overview.html" class="nav-link" data-lang="en">About</a>
       <a href="Company-Overview.html" class="nav-link" data-lang="zh">关于我们</a>
       <a href="news.html" class="nav-link" data-lang="en">News</a>
@@ -172,8 +168,6 @@ const FOOTER_HTML = `
         <ul class="footer-links">
           <li><a href="Company-Overview.html" data-lang="en">About Us</a></li>
           <li><a href="Company-Overview.html" data-lang="zh">关于我们</a></li>
-          <li><a href="Why-Sinsoprinting.html" data-lang="en">Why Sinso</a></li>
-          <li><a href="Why-Sinsoprinting.html" data-lang="zh">我们的优势</a></li>
           <li><a href="Solutions.html" data-lang="en">Solutions</a></li>
           <li><a href="Solutions.html" data-lang="zh">解决方案</a></li>
           <li><a href="news.html" data-lang="en">News</a></li>
