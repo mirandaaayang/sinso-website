@@ -87,14 +87,6 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.3rem); }
   color: var(--blue);
   margin-bottom: 16px;
 }
-.eyebrow::before {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 1.5px;
-  background: var(--blue);
-  flex-shrink: 0;
-}
 
 .section-header { margin-bottom: 52px; }
 .section-header.centered { text-align: center; }
