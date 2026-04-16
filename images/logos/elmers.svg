@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60">
+  <ellipse cx="28" cy="30" rx="22" ry="24" fill="#E8432D"/>
+  <text x="28" y="26" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="white" text-anchor="middle">ELMER'S</text>
+  <text x="28" y="38" font-family="Arial,sans-serif" font-size="8" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="middle">PRODUCTS</text>
+  <text x="60" y="38" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#E8432D" font-style="italic">Elmer's</text>
+</svg>

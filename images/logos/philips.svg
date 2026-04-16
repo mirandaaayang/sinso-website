@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" width="150" height="60">
+  <g transform="translate(10,8)">
+    <rect x="0" y="0" width="30" height="44" rx="15" fill="#0B5ED7"/>
+    <circle cx="15" cy="10" r="5" fill="white"/>
+    <circle cx="15" cy="22" r="5" fill="white"/>
+    <circle cx="15" cy="34" r="5" fill="white"/>
+  </g>
+  <text x="50" y="38" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#0B5ED7" letter-spacing="1">PHILIPS</text>
+</svg>
