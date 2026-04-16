@@ -322,13 +322,40 @@
           </div>
         </div>
 
-        <!-- Map placeholder -->
-        <div class="map-placeholder">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <p data-lang="en"><strong>Fenghua Hi-Tech Development Zone</strong><br>Ningbo, Zhejiang, China<br><br>
-          <a href="https://maps.google.com/?q=Fenghua+Hi-Tech+Development+Zone+Ningbo+Zhejiang+China" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">View on Google Maps →</a></p>
-          <p data-lang="zh"><strong>奉化高新技术开发区</strong><br>浙江省宁波市，中国<br><br>
-          <a href="https://maps.google.com/?q=Fenghua+Hi-Tech+Development+Zone+Ningbo+Zhejiang+China" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">在Google地图上查看 →</a></p>
+        <!-- Map: Google Maps (EN) / Amap + Baidu (ZH) -->
+        <div style="margin-top:32px;">
+
+          <!-- EN: Google Maps embed -->
+          <div data-lang="en">
+            <iframe
+              src="https://maps.google.com/maps?q=No.118+Huiming+Road+Fenghua+Ningbo+China&output=embed&hl=en&z=15"
+              width="100%" height="280"
+              style="border:0;border-radius:var(--radius-lg);display:block;"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p style="font-size:0.78rem;color:var(--gray-400);margin-top:8px;line-height:1.5;">
+              No. 118, Huiming Road, Fenghua Hi-Tech Zone, Ningbo, Zhejiang 315500, China
+            </p>
+          </div>
+
+          <!-- ZH: Amap + Baidu links (iframe embedding requires paid API key) -->
+          <div data-lang="zh" style="background:var(--gray-100);border:1px solid var(--gray-200);border-radius:var(--radius-lg);padding:28px 24px;text-align:center;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.5" style="margin-bottom:12px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p style="font-weight:700;color:var(--text);margin-bottom:4px;">宁波新兆印业有限公司</p>
+            <p style="font-size:0.88rem;color:var(--gray-600);margin-bottom:20px;">浙江省宁波市奉化区汇明路118号（315500）</p>
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+              <a href="https://uri.amap.com/search?keyword=宁波市奉化区汇明路118号新兆印业&city=宁波"
+                 target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                在高德地图查看
+              </a>
+              <a href="https://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D宁波市奉化区汇明路118号新兆印业"
+                 target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                在百度地图查看
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
